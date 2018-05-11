@@ -1,0 +1,19 @@
+{
+  "name": "hasher",
+  "version": "0.0.1",
+  "description": "md5 hash creator",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^22.4.3"
+	},
+	"jest": {
+		"testPathIgnorePatterns": [
+			"<rootDir>/node_modules"
+		]
+	}
+}
